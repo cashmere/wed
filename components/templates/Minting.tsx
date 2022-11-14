@@ -24,9 +24,8 @@ const Component: React.FC = () => {
       mx="auto"
     >
       <Fade>
-      <img src="/assets/bg/wedding.jpg"></img>
         <VStack spacing={6}>
-        
+              <img src="/assets/bg/wedding.jpg"></img>
           <div>
             {address ? (
               <Button onClick={mint} disabled={store.isClaiming}>
