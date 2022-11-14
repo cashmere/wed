@@ -36,6 +36,7 @@ const Component: React.FC = () => {
       >
         <NftImage imageUri={token.metadata.image} />
       </motion.div>
+      
     </AnimatePresence>
   ) : (
     <></>

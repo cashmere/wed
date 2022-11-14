@@ -45,9 +45,9 @@ const Component: React.FC = () => {
           onClick={connectWallet}
           display="block"
           textAlign="center"
-          w="10rem"
+          w="15rem"
         >
-          <Text fontSize="xs">Connect Wallet</Text>
+          <Text fontSize="xs">Become Witness(Wallet Connect)</Text>
         </Button>
       )}
     </>

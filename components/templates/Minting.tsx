@@ -24,11 +24,9 @@ const Component: React.FC = () => {
       mx="auto"
     >
       <Fade>
+      <img src="/assets/bg/wedding.jpg"></img>
         <VStack spacing={6}>
-          <Box width="240px" height="240px">
-            <NftImagesSlideShow />
-          </Box>
-
+        
           <div>
             {address ? (
               <Button onClick={mint} disabled={store.isClaiming}>
@@ -38,14 +36,14 @@ const Component: React.FC = () => {
               </Button>
             ) : (
               <Button onClick={connectWallet}>
-                <Text fontSize="xs">Connect Wallet</Text>
+                <Text fontSize="s">結婚を認める(Connect Wallet)</Text>
               </Button>
             )}
             <Text pt={2} fontSize="xs" textAlign={'center'}>
               {store.claimedSupply} / {store.totalSupply}
             </Text>
             <Text pt={2} fontSize="xs" textAlign={'center'}>
-              goerli testnet
+              2人の結婚を認めていただける方は、<br></br>上の「結婚を認める」ボタンを押してください。<br></br>Polygon(MATIC) Mainnet
             </Text>
           </div>
         </VStack>

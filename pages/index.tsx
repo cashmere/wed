@@ -10,7 +10,7 @@ const Home: NextPageWithLayout = () => {
   return (
     <>
       <Head>
-        <title></title>
+        <title>H&J Wedding</title>
         <meta name="description" content="" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
