@@ -37,7 +37,7 @@ export const useMint = () => {
 
     try {
       const minted = await nftDrop?.claim(1)
-      alert(`Successfully minted NFT!`)
+      alert(`Successfully witnessed the marriage!`)
     } catch (error) {
       console.error(error)
       alert(error)
